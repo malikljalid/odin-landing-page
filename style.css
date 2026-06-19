@@ -4,6 +4,11 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -14,9 +19,15 @@ a {
 
 .header {
     background-color: #1F2937;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
