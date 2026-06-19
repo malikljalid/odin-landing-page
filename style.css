@@ -30,6 +30,12 @@ a {
     align-items: center;
 }
 
+.sec-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .footer {
     background-color: #1F2937;
 }
