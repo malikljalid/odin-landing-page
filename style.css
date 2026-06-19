@@ -3,7 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    margin: 0;
 }
 
 ul {
@@ -26,6 +27,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 42px 42px;
 }
 
 .top-header {
@@ -40,10 +42,6 @@ a {
 
 }
 
-.footer {
-    background-color: #1F2937;
-}
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -53,6 +51,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .intro-text {
@@ -66,6 +65,10 @@ a {
     font-size: 18px;
     /* width: 100px;
     height: 50px; */
+}
+
+.part-one, .part-two, .notification {
+    padding-inline: 42px;
 }
 
 .information {
@@ -90,4 +93,14 @@ a {
 
 .notification-button, .intro-button {
     background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 42px;
+    color: white;
+    flex: 1;
 }
