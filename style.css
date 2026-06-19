@@ -1,9 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     margin: 0;
 }
 
@@ -89,6 +89,10 @@ a {
 
 .notification {
     background-color: #3882F6;
+}
+
+.notification-title {
+    margin: 0;
 }
 
 .notification-button, .intro-button {
