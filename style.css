@@ -27,19 +27,31 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 42px 42px;
+    gap: 100px;
+    padding: 0 100px 100px;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 8px; */
 }
 
 .sec-header {
     display: flex;
     justify-content: space-between;
+    /* padding: 42px; */
 
+}
+
+
+
+.intro-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    color: white;
 }
 
 .logo {
@@ -95,7 +107,7 @@ a {
     margin: 0;
 }
 
-.notification-button, .intro-button {
+.notification-button {
     background-color: #3882F6;
 }
 
