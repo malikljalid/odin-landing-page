@@ -82,14 +82,54 @@ a {
     padding-inline: 42px;
 }
 
+.part-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px;
+
+}
+
 .information {
     font-size: 36px;
-    font-wieght: 900;
+    font-weight: 900;
     color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-text {
+    font-size: 8px;
+    text-align: center;
 }
 
 .part-two {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px;
 }
 
 .quote {
@@ -97,6 +137,8 @@ a {
     font-weight: 300;
     color: #1F2937;
 }
+
+
 
 .notification {
     background-color: #3882F6;
