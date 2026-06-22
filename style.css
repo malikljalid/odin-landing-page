@@ -46,11 +46,13 @@ a {
 
 }
 
-.intro-button {
+.intro-button, .notification-button {
     background-color: #3882F6;
     border-radius: 8px;
     border: 1px solid #3882F6;
     color: white;
+    width: 100px;
+    height: 25px;
 }
 
 .logo {
@@ -153,10 +155,10 @@ a {
 .notification-bar {
     background-color: #3882F6;
     color: white;
-    width: 600px;
+    width: 700px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 42px;
 }
 
@@ -165,7 +167,7 @@ a {
 }
 
 .notification-button {
-    background-color: #3882F6;
+    border: 1px solid white;
 }
 
 .footer {
