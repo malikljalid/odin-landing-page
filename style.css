@@ -58,6 +58,14 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .intro-title {
@@ -77,6 +85,9 @@ a {
     color: white;
     font-size: 18px;
     width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* height: 50px; */
 }
 
@@ -137,7 +148,7 @@ a {
 
 .quote {
     font-size: 36px;
-    font-weight: 300;
+    font-weight: lighter;
     color: #1F2937;
 }
 
