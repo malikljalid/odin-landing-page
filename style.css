@@ -101,7 +101,7 @@ a {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 52px;
 }
 
 .item {
@@ -145,14 +145,19 @@ a {
 }
 
 .part-three {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.notification-bar {
+    background-color: #3882F6;
+    color: white;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-}
-
-.notification {
-    background-color: #3882F6;
+    padding: 42px;
 }
 
 .notification-title {
