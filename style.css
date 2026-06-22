@@ -139,9 +139,10 @@ a {
     color: #1F2937;
 }
 
-/* .autor {
-    font-weight: 700;
-} */
+.author {
+    font-size: 26px;
+    /* font-weight: 00; */
+}
 
 .part-three {
     display: flex;
