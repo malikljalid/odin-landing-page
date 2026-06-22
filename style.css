@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    font-family: Roboto, sans-serif;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -87,6 +87,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 42px;
     padding: 42px;
 
 }
@@ -99,8 +100,8 @@ a {
 
 .boxes {
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
+    gap: 32px;
 }
 
 .item {
@@ -108,13 +109,13 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 80px;
-    height: 100px;
+    max-width: 160px;
+    /* height: 200px; */
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 2px solid #3882F6;
     border-radius: 8px;
 }
@@ -138,7 +139,16 @@ a {
     color: #1F2937;
 }
 
+/* .autor {
+    font-weight: 700;
+} */
 
+.part-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
 .notification {
     background-color: #3882F6;
@@ -154,10 +164,10 @@ a {
 
 .footer {
     background-color: #1F2937;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-inline: 42px;
+    /* padding-inline: 42px; */
     color: white;
-    flex: 1;
 }
